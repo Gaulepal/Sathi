@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD37C2552D764AE14877B10 /* Pods_Sathi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203001F8458F6ACA1A899452 /* Pods_Sathi.framework */; };
+		A978E8551F9A911600026E19 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978E8541F9A911600026E19 /* GradientView.swift */; };
 		A988EB931F9417E70073BFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988EB921F9417E70073BFCD /* AppDelegate.swift */; };
-		A988EB951F9417E70073BFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988EB941F9417E70073BFCD /* ViewController.swift */; };
 		A988EB981F9417E80073BFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A988EB961F9417E80073BFCD /* Main.storyboard */; };
 		A988EB9A1F9417E80073BFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A988EB991F9417E80073BFCD /* Assets.xcassets */; };
 		A988EB9D1F9417E80073BFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A988EB9B1F9417E80073BFCD /* LaunchScreen.storyboard */; };
+		A988EBAA1F9418A70073BFCD /* chatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988EBA91F9418A70073BFCD /* chatVC.swift */; };
+		A988EBAC1F9418B20073BFCD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988EBAB1F9418B20073BFCD /* ChannelVC.swift */; };
+		A988EBAD1F9418F40073BFCD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A988EBA71F94187D0073BFCD /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203001F8458F6ACA1A899452 /* Pods_Sathi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sathi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455F646E898F5349F2093B1A /* Pods-Sathi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sathi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sathi/Pods-Sathi.release.xcconfig"; sourceTree = "<group>"; };
+		A978E8541F9A911600026E19 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A988EB8F1F9417E70073BFCD /* Sathi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sathi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A988EB921F9417E70073BFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A988EB941F9417E70073BFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A988EB971F9417E80073BFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A988EB991F9417E80073BFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A988EB9C1F9417E80073BFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A988EB9E1F9417E80073BFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A988EBA51F94187D0073BFCD /* Sathi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sathi-Bridging-Header.h"; sourceTree = "<group>"; };
+		A988EBA61F94187D0073BFCD /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A988EBA71F94187D0073BFCD /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A988EBA91F9418A70073BFCD /* chatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatVC.swift; sourceTree = "<group>"; };
+		A988EBAB1F9418B20073BFCD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		D7C451F1055E7748A2812BD2 /* Pods-Sathi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sathi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sathi/Pods-Sathi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD37C2552D764AE14877B10 /* Pods_Sathi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93C748D3B327248DF2DFB4C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C451F1055E7748A2812BD2 /* Pods-Sathi.debug.xcconfig */,
+				455F646E898F5349F2093B1A /* Pods-Sathi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A978E8521F9A90E100026E19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A978E8541F9A911600026E19 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A978E8531F9A90E800026E19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A988EB861F9417E70073BFCD = {
 			isa = PBXGroup;
 			children = (
 				A988EB911F9417E70073BFCD /* Sathi */,
 				A988EB901F9417E70073BFCD /* Products */,
+				93C748D3B327248DF2DFB4C8 /* Pods */,
+				DDFA17E8291F8037E17564E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,44 @@
 		A988EB911F9417E70073BFCD /* Sathi */ = {
 			isa = PBXGroup;
 			children = (
+				A978E8531F9A90E800026E19 /* Model */,
+				A978E8521F9A90E100026E19 /* View */,
+				A988EBA81F9418960073BFCD /* Controller */,
+				A988EBA41F9418470073BFCD /* Extentions */,
 				A988EB921F9417E70073BFCD /* AppDelegate.swift */,
-				A988EB941F9417E70073BFCD /* ViewController.swift */,
 				A988EB961F9417E80073BFCD /* Main.storyboard */,
 				A988EB991F9417E80073BFCD /* Assets.xcassets */,
 				A988EB9B1F9417E80073BFCD /* LaunchScreen.storyboard */,
 				A988EB9E1F9417E80073BFCD /* Info.plist */,
 			);
 			path = Sathi;
+			sourceTree = "<group>";
+		};
+		A988EBA41F9418470073BFCD /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				A988EBA61F94187D0073BFCD /* SWRevealViewController.h */,
+				A988EBA71F94187D0073BFCD /* SWRevealViewController.m */,
+				A988EBA51F94187D0073BFCD /* Sathi-Bridging-Header.h */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		A988EBA81F9418960073BFCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A988EBA91F9418A70073BFCD /* chatVC.swift */,
+				A988EBAB1F9418B20073BFCD /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDFA17E8291F8037E17564E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				203001F8458F6ACA1A899452 /* Pods_Sathi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A988EBA11F9417E80073BFCD /* Build configuration list for PBXNativeTarget "Sathi" */;
 			buildPhases = (
+				A6E836A615F77FAD055C0686 /* [CP] Check Pods Manifest.lock */,
 				A988EB8B1F9417E70073BFCD /* Sources */,
 				A988EB8C1F9417E70073BFCD /* Frameworks */,
 				A988EB8D1F9417E70073BFCD /* Resources */,
+				E629E66DCAD3C8036F13BDA4 /* [CP] Embed Pods Frameworks */,
+				0161CE5BB9D78CF8FC4377F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +168,7 @@
 				TargetAttributes = {
 					A988EB8E1F9417E70073BFCD = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,12 +204,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0161CE5BB9D78CF8FC4377F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sathi/Pods-Sathi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E836A615F77FAD055C0686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E629E66DCAD3C8036F13BDA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sathi/Pods-Sathi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A988EB8B1F9417E70073BFCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A988EB951F9417E70073BFCD /* ViewController.swift in Sources */,
+				A988EBAC1F9418B20073BFCD /* ChannelVC.swift in Sources */,
+				A988EBAD1F9418F40073BFCD /* SWRevealViewController.m in Sources */,
+				A978E8551F9A911600026E19 /* GradientView.swift in Sources */,
+				A988EBAA1F9418A70073BFCD /* chatVC.swift in Sources */,
 				A988EB931F9417E70073BFCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +396,18 @@
 		};
 		A988EBA21F9417E80073BFCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C451F1055E7748A2812BD2 /* Pods-Sathi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X2Q82EV49;
 				INFOPLIST_FILE = Sathi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testBabuKumar.www.Sathi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sathi/Extentions/Sathi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +415,17 @@
 		};
 		A988EBA31F9417E80073BFCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455F646E898F5349F2093B1A /* Pods-Sathi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X2Q82EV49;
 				INFOPLIST_FILE = Sathi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testBabuKumar.www.Sathi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sathi/Extentions/Sathi-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
